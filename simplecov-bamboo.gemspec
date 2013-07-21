@@ -1,16 +1,17 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require 'simplecov-html/version'
+require 'simplecov-bamboo/version'
 
 Gem::Specification.new do |s|
   s.name        = "simplecov-bamboo"
-  s.version     = SimpleCov::Formatter::HTMLFormatter::VERSION
+  s.version     = SimpleCov::Formatter::BambooFormatter::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Daryl Robbins"]
   s.email       = ["daryl at robbins dot name"]
   s.homepage    = "https://github.com/darylrobbins/simplecov-bamboo"
-  s.summary     = %Q{Default HTML formatter for SimpleCov code coverage tool for ruby 1.9+}
-  s.description = %Q{Default HTML formatter for SimpleCov code coverage tool for ruby 1.9+}
+  s.summary     = %Q{SimpleCov/Bamboo Integration}
+  s.description = %Q{Integrate SimpleCov results into Atlassian Bamboo CI server}
+  s.license     = 'MIT'
 
   s.rubyforge_project = "simplecov-bamboo"
   

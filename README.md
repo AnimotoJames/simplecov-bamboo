@@ -11,10 +11,7 @@ The formatter creates a file called *clover.xml* in the coverage directory, whic
 
 1. Add the SimpleCov-Bamboo gem to test group your Gemfile:
 
-        gem 'simplecov-bamboo', :require => false,
-            :github => "darylrobbins/simplecov-bamboo", :group => "test" 
-
-   Note the :github reference is currently required as this gem is not yet part of the Gem repository.
+        gem 'simplecov-bamboo', :require => false, :group => "test" 
 
 2. Configure SimpleCov in your test helper:
 
