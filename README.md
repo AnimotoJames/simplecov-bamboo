@@ -31,7 +31,9 @@ The formatter creates a file called *clover.xml* in the coverage directory, whic
 - Select 'Clover is already integrated into this build and a clover.xml file will be produced'
 - Enter your coverage directory into the 'Clover XML Location' field; for example: target/coverage
     
-4. After the next build, you can now browse your coverage information for the build:
+### Results
+
+After the next build, you can now browse your coverage information for the build:
 
 - See the Clover tab of the Build Plan Details for coverage and loc trends for the porject; and for a link to the latest coverage report.
 - You can also access the coverage report for a particular build result. Navigate to the build result and select the results for the job, where the coverage report was published. You may need to expand the Tree Navigation bar on the left of the page to select the job results. From the job results, select the Clover tab to view the coverage report. 
