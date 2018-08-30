@@ -28,7 +28,7 @@ class SimpleCov::Formatter::BambooFormatter
     class BambooHTMLFormatter < SimpleCov::Formatter::HTMLFormatter
     
       def output_path
-        "target/site/clover"
+        super + "/clover"
       end
 
     end
